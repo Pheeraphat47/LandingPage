@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@400;500;600;700&display=swap');
+*{
+    font-family: 'Mitr', sans-serif;
+}
 .carousel-item{
     height: 500px;
 }
@@ -36,3 +40,15 @@
     width: 100%;
     height: 100%;
 }
+
+#contact{
+    text-align: center;
+}
+
+.navbar {
+    font-size: 20px;    
+}
+.navbar-brand{
+    font-size: 24px;
+}
+

@@ -11,30 +11,32 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/x-icon"
+        href="https://scontent.fbkk2-8.fna.fbcdn.net/v/t1.15752-9/320073742_663847312140212_8066991323029121234_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFZpNVK69lFENcwTXfJtzvQnFn9m2SUDqOcWf2bZJQOo0ST8hmph4uCOTzOt_PQay64dRoKCaX-Dz_1Lj4xG27B&_nc_ohc=HVYoJ9r_x1AAX-jsEym0&_nc_ht=scontent.fbkk2-8.fna&oh=03_AdQsqkFHitDcAnz3qkHa9-4v7hurl5r3Q-cylQ1YWWE04Q&oe=63CB9789" />
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-md p-4 navbar-dark fixed-top bg-dark">
         <div class="container">
-            <a href="index.html" class="navbar-brand">ธีรชัยพลาสติก</a>
+            <a href="#slider" class="navbar-brand">ธีรชัยพลาสติก</a>
             <!-- Hamberger Menu -->
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div id="navbar1" class="collapse navbar-collapse">
+            <div id="navbar1" class="collapse navbar-collapse text-center">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">หน้าแรก</a>
+                        <a href="#slider" class="nav-link">หน้าแรก</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">ทำไมต้องซื้อกับเรา?</a>
+                        <a href="#service" class="nav-link">ทำไมต้องซื้อกับเรา?</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">สินค้าของเรา</a>
+                        <a href="#about" class="nav-link">สินค้าของเรา</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">ติดต่อเรา</a>
+                        <a href="#contact" class="nav-link">ติดต่อเรา</a>
                     </li>
                 </ul>
             </div>
@@ -128,9 +130,7 @@
                 <div class="col">
                     <div class="container pt-5">
                         <h1>เกี่ยวกับเรา</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus impedit pariatur repudiandae
-                            optio nostrum assumenda facilis nemo minus. Deleniti officiis harum pariatur numquam
-                            recusandae veniam impedit, eveniet molestiae repudiandae ipsam.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, eum.</p>
                     </div>
                 </div>
             </div>
@@ -141,9 +141,71 @@
     <!-- gallary -->
     <section id="gallary" class="p-5">
         <div class="container">
-            <h1 class="text-center">สินค้าของเรา</h1>
+            <h1 class="text-center mb-5">สินค้าของเรา</h1>            
+            <!-- image -->
+            <!-- row1 -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/11/07/07/pine-7648311_960_720.jpg"
+                        class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/01/22/02/bird-7629852_960_720.jpg"
+                        class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/14/10/38/bird-7655137_960_720.jpg"
+                        class="img-fluid">
+                </div>
+            </div>
+            <!-- row2 -->
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/11/07/07/pine-7648311_960_720.jpg"
+                        class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/01/22/02/bird-7629852_960_720.jpg"
+                        class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://cdn.pixabay.com/photo/2022/12/14/10/38/bird-7655137_960_720.jpg"
+                        class="img-fluid">
+                </div>
+            </div>
+
         </div>
     </section>
+
+    <!-- Contact -->
+    <section id="contact" class="p-5">
+        <div class="container">
+            <h1 class="mb-5">ติดต่อเรา</h1>
+            <div class="d-flex flex-column align-items-center">
+                <div class="d-inline-flex">
+                    <i class="fab fa-line fa-3x pr-5"></i>
+                    <h6 class="mt-3">&nbsp;&nbsp;@vincentchipper</h6>
+                </div>
+                <div class="d-inline-flex mt-4">
+                    <i class="fas fa-phone fa-3x">&nbsp;</i>
+                    <h6 class="mt-3 mr-5">02-212-3678&nbsp;&nbsp;&nbsp;&nbsp;</h6>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; Pheeraphat Dherachaisuphakij</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 
 
 
