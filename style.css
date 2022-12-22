@@ -1,0 +1,18 @@
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url("image/pic1.jpg");
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url("image/pic2.jpg");
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url("image/pic3.jpg");
+    background-size: cover;
+}
